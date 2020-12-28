@@ -656,6 +656,9 @@ a {
 
 .container {
     max-width: 1000px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-bloc-text {
@@ -705,8 +708,20 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+   
+    font-size: 1.6em;
     line-height: 1.4em;
+    text-align: center;
+    width:620px;
+}
+.pdg {
+    font-size: 1.4em;
+    font-style: italic;
+    width:510px;
+}
+.pdg p {
+    font-size:0.7em;
+    font-style: normal;
 }
 
 h3 {
@@ -822,7 +837,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
