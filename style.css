@@ -47,6 +47,14 @@ a:hover {
 .bloc-lg {
     padding: 100px 50px;
 }
+#bloc-5-cta .bloc-lg {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+}
+#bloc-5-cta .bloc-lg h2 {
+    font-size: 22px;
+}
 
 .bloc-md {
     padding: 50px;
@@ -656,9 +664,11 @@ a {
 
 .container {
     max-width: 1000px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+     
+}
+.bloc-md .row {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-bloc-text {
@@ -707,13 +717,14 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+.bloc-md h2 {
    
     font-size: 1.6em;
     line-height: 1.4em;
     text-align: center;
     width:620px;
 }
+
 .pdg {
     font-size: 1.4em;
     font-style: italic;
@@ -723,7 +734,10 @@ h2 {
     font-size:0.7em;
     font-style: normal;
 }
-
+#bloc-3-what-i-do h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -792,6 +806,7 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -996,7 +1011,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
-    }
+            }
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
