@@ -794,22 +794,24 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
+#bloc-4-portfolio h2 {
+    font-size: 22px;
+}
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ec7036;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ee7d49!important;
 }
 
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ee7d49;
     color: #FFFFFF!important;
 }
 
