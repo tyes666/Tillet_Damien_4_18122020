@@ -716,6 +716,10 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.fa {
+    height:48px;
+    width:48px;
+}
 
 .bloc-md h2 {
    
