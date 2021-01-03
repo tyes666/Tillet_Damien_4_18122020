@@ -797,21 +797,19 @@ h4 {
 #bloc-4-portfolio h2 {
     font-size: 22px;
 }
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
-    background-color: #ec7036;
+    background-color: #CB4B10;
 }
 
 .tc-white {
-    color: #ee7d49!important;
+    color: #CB4B10!important;
 }
 
 
 .btn-atomic-tangerine {
-    background: #ee7d49;
+    background: #CB4B10;
     color: #FFFFFF!important;
 }
 
@@ -829,17 +827,14 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CB4B10!important;
 }
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
+
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
