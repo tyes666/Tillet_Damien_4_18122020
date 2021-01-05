@@ -55,6 +55,13 @@ a:hover {
 #bloc-5-cta .bloc-lg h2 {
     font-size: 22px;
 }
+#bloc-7 .bloc-lg {
+    display: flex;
+    flex-direction: column;
+}
+#bloc-7 .bloc-lg p{
+    margin-left: -10px;
+}
 
 .bloc-md {
     padding: 50px;
@@ -1045,4 +1052,18 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+}
 }
